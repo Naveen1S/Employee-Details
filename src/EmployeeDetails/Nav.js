@@ -20,7 +20,7 @@ const Nav = props => {
     <div>
       <div className="navBar">
         <div className="logoContainer">
-          <img src={Archik} className="logo" />
+          <img src={Archik} className="logo" alt="Image is not available"/>
         </div>
         <div className="itemList">
           <a href="https://archik.in/#about" className="linkone">
