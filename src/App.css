@@ -1,0 +1,60 @@
+.App{
+  background-image: url("https://wallpapercave.com/wp/wp9153624.jpg");
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.link{
+  text-decoration: none;
+}
+.link:hover{
+  cursor: pointer;
+  text-decoration: underline;
+  color: white;
+}
+
+.title{
+  font-family: inherit;
+font-size: 60px;
+font-weight: bold;
+color: white;
+margin-top: 5%;
+text-align: center;
+}
+.linkone{
+  text-decoration: none;
+}
+.linkone:hover{
+  cursor: pointer;
+}
+.navBar{
+  width: 100vw;
+  background: linear-gradient(to right,black,white);
+  height: 80px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  display: flex;
+}
+.itemList{
+  display: flex;
+  width: 70%;
+  gap: 5%;
+  cursor: pointer;
+}
+.navIem{
+  font-size: 24px;
+    color: white;
+    font-family: inherit;
+}
+.logo{
+  width: 200px;
+  height: 58px;
+  border-radius: 5px;
+}
+
+.logoContainer{
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
